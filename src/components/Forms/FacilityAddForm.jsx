@@ -101,7 +101,7 @@ const FacilityAddForm = ({ onClose, onAddEdit, initialData }) => {
           <button type="button" onClick={onClose} className="w-6/12 bg-gray-200 rounded-lg hover:bg-gray-300">
             Cancel
           </button>
-          <button type="submit" className="flex items-center justify-center gap-1 font-semibold text-white bg-gradient-to-r from-[#E74C3C] to-[#FFD351] h-[40px] rounded-md w-6/12">
+          <button type="submit" className="flex items-center justify-center gap-1 font-semibold text-white bg-gradient-to-r from-[#fe512e] to-[#f09619] h-[40px] rounded-md w-6/12">
             {initialData ? 'Update' : 'Save'}
           </button>
         </div>
