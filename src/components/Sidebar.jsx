@@ -417,6 +417,8 @@ const Sidebar = ({ isOpen, onClose }) => {
 
           <li className='flex'>
             <span className={` h-10 ${isActive('/financial-management/income') ? 'bg-orange-500 rounded-r-md w-2' : ''}`}></span>
+            <span className={` h-10 ${isActive('/financial-management/other-income') ? 'bg-orange-500 rounded-r-md w-2' : ''}`}></span>
+            <span className={` h-10 ${isActive('/financial-management/other-income/maintenance-details') ? 'bg-orange-500 rounded-r-md w-2' : ''}`}></span>
             <span className={` h-10 ${isActive('/financial-management/expense') ? 'bg-orange-500 rounded-r-md w-2' : ''}`}></span>
             <span className={` h-10 ${isActive('/financial-management/note') ? 'bg-orange-500 rounded-r-md w-2' : ''}`}></span>
 
